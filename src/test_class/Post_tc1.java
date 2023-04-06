@@ -11,9 +11,9 @@ import common_method.common_method_api;
 import io.restassured.path.json.JsonPath;
 import request_repository.Post_Request_Repository;
 
-@Test
-public class Post_tc1 {
 
+public class Post_tc1 {
+	@Test
 	// Run everything, driver class return
 	public static void orchestrator() throws IOException {
 		int responseStatuscode = 0;

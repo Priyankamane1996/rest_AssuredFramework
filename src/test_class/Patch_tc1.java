@@ -11,9 +11,9 @@ import common_method.CommonMethodUtilities;
 import io.restassured.path.json.JsonPath;
 import request_repository.Patch_Request_Repository;
 
-@Test
-public class Patch_tc1 {
 
+public class Patch_tc1 {
+	@Test
 	public static void orchestrator() throws IOException
 	{    
 		String responseBody = "" ;

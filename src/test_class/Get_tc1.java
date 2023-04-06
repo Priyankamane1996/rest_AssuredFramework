@@ -10,9 +10,9 @@ import common_method.CommonMethodUtilities;
 import io.restassured.path.json.JsonPath;
 import request_repository.Get_Request_Repository;
 
-@Test
-public class Get_tc1 {
 
+public class Get_tc1 {
+	@Test
 	public static void orchestrator() throws IOException {
 
 		String responseBody = "";
